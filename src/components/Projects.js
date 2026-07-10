@@ -2,7 +2,7 @@ import { Container, Row } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
 import { ProjectCard } from "./ProjectCard";
 import { theme, eyebrowStyle, sectionHeadingStyle } from "../theme";
-import project1 from "../asset/project-1.png";
+import project1 from "../asset/project-1.jpg";
 import project2 from "../asset/project-2.png";
 import project3 from "../asset/project-3.png";
 import project4 from "../asset/project-4.webp";
@@ -23,24 +23,6 @@ const projects = [
     liveUrl: "https://carat-filters-jewellery-trading-llc.myshopify.com/", 
     codeUrl: "#",
   },
-  {
-    title:  "IUM · E-commerce",
-    // tag: "E-Commerce Storefront",
-    description: "A responsive online store with cart, filters, and checkout flow built in Shopify, all custom dynamic sections.",
-    image: project2,
-    gradient: "linear-gradient(135deg, #3B82F6, #1E3A8A)",
-    liveUrl: "#",
-    codeUrl: "#",
-  },
-  {
- title:  "Punk Rave · E-commerce",
-    // tag: "E-Commerce Storefront",
-    description: "Developed custom Shopify sections and improved user experience for an international fashion brand.",
-    image: project3,
-    gradient: "linear-gradient(135deg, #FF6B4A, #B33A20)",
-    liveUrl: "https://punkrave.ch/",
-    codeUrl: "#",
-  },
     {
     title:  "The Robinson Family Store",
     // tag: "E-Commerce Storefront",
@@ -48,6 +30,15 @@ const projects = [
     image: project4,
     gradient: `linear-gradient(135deg, ${theme.colors.accent}, ${theme.colors.accentDark})`,
     liveUrl: "https://therobinsonfamilystore.com/", 
+    codeUrl: "#",
+  },
+    {
+ title:  "Punk Rave · E-commerce",
+    // tag: "E-Commerce Storefront",
+    description: "Developed custom Shopify sections and improved user experience for an international fashion brand.",
+    image: project3,
+    gradient: "linear-gradient(135deg, #FF6B4A, #B33A20)",
+    liveUrl: "https://punkrave.ch/",
     codeUrl: "#",
   },
    {
@@ -93,6 +84,15 @@ const projects = [
     image: project9,
     gradient: "linear-gradient(135deg, #FF6B4A, #B33A20)",
     liveUrl: "https://aboutwork.online/",
+    codeUrl: "#",
+  },
+    {
+    title:  "IUM · E-commerce",
+    // tag: "E-Commerce Storefront",
+    description: "A responsive online store with cart, filters, and checkout flow built in Shopify, all custom dynamic sections.",
+    image: project2,
+    gradient: "linear-gradient(135deg, #3B82F6, #1E3A8A)",
+    liveUrl: "#",
     codeUrl: "#",
   },
 
