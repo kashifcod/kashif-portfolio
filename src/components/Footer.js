@@ -19,7 +19,7 @@ const NAV_LINKS = [
 const SOCIALS = [
   { icon: FaLinkedin, href: "https://www.linkedin.com/in/kashif-ali-26aba3205/", brand: "#0A66C2", label: "LinkedIn" },
   { icon: FaGithub, href: "https://github.com/kashifcod", brand: "#FFFFFF", label: "GitHub" },
-  { icon: FaWhatsapp, href: "https://wa.me/00000000000", brand: "#25D366", label: "WhatsApp" },
+  { icon: FaWhatsapp, href: "https://wa.me/qr/EG3IQLDDGBFLL1", brand: "#25D366", label: "WhatsApp" },
 ];
  
 const FooterNavLink = ({ id, label }) => {
