@@ -7,7 +7,7 @@ import project2 from "../asset/project-2.webp";
 import project3 from "../asset/project-3.webp";
 import project4 from "../asset/project-4.webp";
 import project5 from "../asset/JOGA-Starz.webp";
-import project6 from "../asset/Bark Strength.png";
+import project6 from "../asset/Bark.webp";
 import project7 from "../asset/The-Hookery.webp";
 import project8 from "../asset/Killer-Labs.webp";
 import project9 from "../asset/About-Work.webp";
