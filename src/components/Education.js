@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
 import { FaGraduationCap, FaMapMarkerAlt } from "react-icons/fa";
 import { theme, eyebrowStyle, sectionHeadingStyle } from "../theme";
-import graduationImg from "../asset/graduation pic.png";
+import graduationImg from "../asset/graduation pic.jpeg";
 
 const EDUCATION = [
   {
