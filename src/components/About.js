@@ -4,9 +4,9 @@ import { theme, eyebrowStyle, sectionHeadingStyle } from "../theme";
 
 // EDIT ME: update these numbers to reflect your real experience
 const STATS = [
-  { value: "2+", label: "Years Experience" },
+  { value: "1+", label: "Years Experience" },
   { value: "20+", label: "Projects Completed" },
-  { value: "10+", label: "Happy Clients" },
+  { value: "15+", label: "Happy Clients" },
 ];
 
 export const About = () => {

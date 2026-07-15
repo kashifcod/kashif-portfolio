@@ -2,9 +2,9 @@ import { Container, Row } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
 import { ProjectCard } from "./ProjectCard";
 import { theme, eyebrowStyle, sectionHeadingStyle } from "../theme";
-import project1 from "../asset/project-1.jpg";
-import project2 from "../asset/project-2.png";
-import project3 from "../asset/project-3.png";
+import project1 from "../asset/project-1.webp";
+import project2 from "../asset/project-2.webp";
+import project3 from "../asset/project-3.webp";
 import project4 from "../asset/project-4.webp";
 import project5 from "../asset/JOGA-Starz.webp";
 import project6 from "../asset/Bark Strength.png";
@@ -61,7 +61,7 @@ const projects = [
   },
       {
     title:  "The Hookery · E-commerce",
-    tag: "E-Commerce Storefront",
+    // tag: "E-Commerce Storefront",
     description: "A responsive online store with cart, filters, and checkout flow built in Shopify, all custom dynamic sections.",
     image: project7,
     gradient: `linear-gradient(135deg, ${theme.colors.accent}, ${theme.colors.accentDark})`,
@@ -79,7 +79,7 @@ const projects = [
   },
   {
  title:  "About Work · E-commerce",
-    tag: "E-Commerce Storefront",
+    // tag: "E-Commerce Storefront",
     description: "Built custom homepage sections, category layouts, and customer-focused content for a workwear brand.",
     image: project9,
     gradient: "linear-gradient(135deg, #FF6B4A, #B33A20)",
