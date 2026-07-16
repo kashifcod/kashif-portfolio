@@ -11,14 +11,12 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { BootPreloader } from "./components/BootPreloader";
 import { CursorFX } from "./components/CursorFX";
-import { ScrollProgress } from "./components/ScrollProgress";
 
 function App() {
   return (
     <>
       <BootPreloader />
       <CursorFX />
-      <ScrollProgress />
       <NavBar />
       <Banner />
       <About />
