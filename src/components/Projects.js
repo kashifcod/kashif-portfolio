@@ -2,7 +2,7 @@ import { Container, Row } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
 import { ProjectCard } from "./ProjectCard";
 import { theme, eyebrowStyle, sectionHeadingStyle } from "../theme";
-import project1 from "../asset/project-1.webp";
+import project1 from "../asset/project-1.jpg";
 import project2 from "../asset/project-2.webp";
 import project3 from "../asset/project-3.webp";
 import project4 from "../asset/project-4.webp";
