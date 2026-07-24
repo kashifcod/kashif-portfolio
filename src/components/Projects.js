@@ -3,7 +3,7 @@ import TrackVisibility from "react-on-screen";
 import { ProjectCard } from "./ProjectCard";
 import { theme, eyebrowStyle, sectionHeadingStyle } from "../theme";
 import project1 from "../asset/project-1.jpg";
-import project2 from "../asset/project-2.webp";
+import project2 from "../asset/Bits4Reasons.webp";
 import project3 from "../asset/project-3.webp";
 import project4 from "../asset/project-4.webp";
 import project5 from "../asset/JOGA-Starz.webp";
@@ -87,12 +87,12 @@ const projects = [
     codeUrl: "#",
   },
     {
-    title:  "IUM · E-commerce",
+    title:  "BITS4REASONS · E-commerce",
     // tag: "E-Commerce Storefront",
-    description: "A responsive online store with cart, filters, and checkout flow built in Shopify, all custom dynamic sections.",
+      description: "Designed and customized a Shopify store with custom sections, product pages, collections, and responsive UI for an enhanced customer experience.",
     image: project2,
     gradient: "linear-gradient(135deg, #3B82F6, #1E3A8A)",
-    liveUrl: "#",
+      liveUrl: "https://bits4reasons.co.uk/",
     codeUrl: "#",
   },
 
