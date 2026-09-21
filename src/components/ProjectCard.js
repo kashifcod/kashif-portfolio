@@ -1,8 +1,8 @@
 import { Col } from "react-bootstrap";
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub,FaKey } from "react-icons/fa";
 import { theme } from "../theme";
 // import "./ProjectCard.css";
-export const ProjectCard = ({ title, description, image, tag, gradient, liveUrl, codeUrl }) => {
+export const ProjectCard = ({ title, description, image, tag, gradient, liveUrl,storePassword, codeUrl }) => {
   return (
     <Col xs={12} sm={6} lg={4} className="mb-4">
       <div
@@ -23,70 +23,6 @@ export const ProjectCard = ({ title, description, image, tag, gradient, liveUrl,
           e.currentTarget.style.boxShadow = "none";
         }}
       >
-
-{/* <div
-  style={{
-    position: "relative",
-    aspectRatio: "16/10",
-    overflow: "hidden",
-  }}
->
-  {image ? (
-    <img
-      src={image}
-      alt={title}
-      style={{
-        width: "100%",
-        height: "100%",
-        objectFit: "contain",
-        display: "block",
-         background: "#fff",
-      }}
-    />
-  ) : (
-    <div
-      style={{
-        width: "100%",
-        height: "100%",
-        background: gradient,
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      <span
-        style={{
-          fontFamily: theme.fonts.display,
-          fontWeight: 700,
-          color: "rgba(255,255,255,0.9)",
-          fontSize: "1.3rem",
-        }}
-      >
-        {title.slice(0, 2).toUpperCase()}
-      </span>
-    </div>
-  )}
-
-  {tag && (
-    <span
-      style={{
-        position: "absolute",
-        top: "14px",
-        left: "14px",
-        fontFamily: theme.fonts.mono,
-        fontSize: "0.7rem",
-        letterSpacing: "0.08em",
-        textTransform: "uppercase",
-        background: "rgba(11,18,32,0.75)",
-        color: "#fff",
-        padding: "5px 10px",
-        borderRadius: "999px",
-      }}
-    >
-      {tag}
-    </span>
-  )}
-</div> */}
 
 <div className="project-preview">
   {image ? (
@@ -164,6 +100,36 @@ export const ProjectCard = ({ title, description, image, tag, gradient, liveUrl,
               <FaGithub size={14} /> Code
             </a>
           </div>
+          {/* Store Password Badge */}
+          {storePassword && (
+            <div
+              style={{
+                marginTop: "12px",
+                paddingTop: "10px",
+                borderTop: `1px dashed ${theme.colors.border}`,
+                display: "flex",
+                alignItems: "center",
+                gap: "6px",
+                fontFamily: theme.fonts.body,
+                fontSize: "0.82rem",
+                color: theme.colors.muted,
+              }}
+            >
+              <FaKey size={10} style={{ color: theme.colors.accent }} />
+              <span>Store Password:</span>
+              <code
+                style={{
+                  background: "rgba(0,0,0,0.05)",
+                  padding: "1px 6px",
+                  borderRadius: "4px",
+                  fontWeight: 600,
+                  color: theme.colors.ink,
+                }}
+              >
+                {storePassword}
+              </code>
+            </div>
+          )}
         </div>
       </div>
     </Col>

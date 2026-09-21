@@ -11,21 +11,61 @@ import project6 from "../asset/Bark.webp";
 import project7 from "../asset/The-Hookery.webp";
 import project8 from "../asset/Killer-Labs.webp";
 import project9 from "../asset/About-Work.webp";
+import andaluci from "../asset/andaluci.webp";
+import k2woodstudio from "..//asset/k2woods.webp";
+import mimiskincare from "..//asset/mimiskincare.webp";
+
 
 
 const projects = [
+
+    {
+    title:  "K2 Wood Studio · E-commerce",
+    tag: "Freelance Project",
+    description: "A clean, warm e-commerce interface for a family-run woodworking studio showcasing handcrafted solid wood home décor and storage solutions.",
+    image: k2woodstudio,
+    gradient: `linear-gradient(135deg, ${theme.colors.accent}, ${theme.colors.accentDark})`,
+    liveUrl: "https://fkxnfk-0x.myshopify.com/", 
+    codeUrl: "#",
+    storePassword: "1",
+
+  },
+     {
+    title:  "MIMI JOJO Skincare · E-commerce",
+    tag: "Freelance Project",
+    description: "A bright, elegant e-commerce design tailored for a natural skincare brand featuring facial creams, body soaps, and glowing beauty products.",
+    image: mimiskincare,
+    gradient: `linear-gradient(135deg, ${theme.colors.accent}, ${theme.colors.accentDark})`,
+    liveUrl: "https://mimijojounstoppable.myshopify.com/", 
+    codeUrl: "#",
+    storePassword: "2",
+  },
+      {
+    title:  "ANDALUCI · E-commerce",
+    tag: "Freelance Project",
+    description: "A modern, cultural apparel e-commerce website design blending heritage aesthetics with contemporary fashion design.",
+    image: andaluci,
+    gradient: `linear-gradient(135deg, ${theme.colors.accent}, ${theme.colors.accentDark})`,
+    liveUrl: "https://5p0cvg-yu.myshopify.com/", 
+    codeUrl: "#",
+    storePassword: "3",
+
+  },
   {
     title:  "Ring & Diamond · E-commerce",
-    // tag: "E-Commerce Storefront",
+    tag: "ASCRO LAB",
     description: "A responsive online store with cart, filters, and checkout flow built in Shopify, all custom dynamic sections.",
     image: project1,
     gradient: `linear-gradient(135deg, ${theme.colors.accent}, ${theme.colors.accentDark})`,
     liveUrl: "https://carat-filters-jewellery-trading-llc.myshopify.com/", 
     codeUrl: "#",
+    storePassword: "kashif",
+
   },
+
     {
     title:  "The Robinson Family Store",
-    // tag: "E-Commerce Storefront",
+    tag: "ASCRO LAB",
     description: "Developed custom dynamic Shopify homepage sections, category banners, and product carousels for a household essentials store.",
     image: project4,
     gradient: `linear-gradient(135deg, ${theme.colors.accent}, ${theme.colors.accentDark})`,
@@ -34,7 +74,7 @@ const projects = [
   },
     {
  title:  "Punk Rave · E-commerce",
-    // tag: "E-Commerce Storefront",
+    tag: "ASCRO LAB",
     description: "Developed custom Shopify sections and improved user experience for an international fashion brand.",
     image: project3,
     gradient: "linear-gradient(135deg, #FF6B4A, #B33A20)",
@@ -43,7 +83,7 @@ const projects = [
   },
    {
     title:  "JogaStarz · E-commerce",
-    // tag: "E-Commerce Storefront",
+    tag: "ASCRO LAB",
     description: "A responsive online store with cart, filters, and checkout flow built in Shopify, all custom dynamic sections.",
     image: project5,
     gradient: "linear-gradient(135deg, #3B82F6, #1E3A8A)",
@@ -52,7 +92,7 @@ const projects = [
   },
   {
  title:  "Bark Strength · E-commerce",
-    // tag: "E-Commerce Storefront",
+    tag: "ASCRO LAB",
     description: "A responsive online store with cart, filters, and checkout flow built in Shopify, all custom dynamic sections.",
     image: project6,
     gradient: "linear-gradient(135deg, #FF6B4A, #B33A20)",
@@ -61,7 +101,7 @@ const projects = [
   },
       {
     title:  "The Hookery · E-commerce",
-    // tag: "E-Commerce Storefront",
+    tag: "ASCRO LAB",
     description: "A responsive online store with cart, filters, and checkout flow built in Shopify, all custom dynamic sections.",
     image: project7,
     gradient: `linear-gradient(135deg, ${theme.colors.accent}, ${theme.colors.accentDark})`,
@@ -70,7 +110,7 @@ const projects = [
   },
    {
     title:  "Killer Labs · E-commerce",
-    // tag: "E-Commerce Storefront",
+    tag: "DIVERT MARKETING",
     description: "A responsive online store with cart, filters, and checkout flow built in Shopify, all custom dynamic sections.",
     image: project8,
     gradient: "linear-gradient(135deg, #3B82F6, #1E3A8A)",
@@ -79,7 +119,7 @@ const projects = [
   },
   {
  title:  "About Work · E-commerce",
-    // tag: "E-Commerce Storefront",
+    tag: "DIVERT MARKETING",
     description: "Built custom homepage sections, category layouts, and customer-focused content for a workwear brand.",
     image: project9,
     gradient: "linear-gradient(135deg, #FF6B4A, #B33A20)",
@@ -88,7 +128,7 @@ const projects = [
   },
     {
     title:  "BITS4REASONS · E-commerce",
-    // tag: "E-Commerce Storefront",
+    tag: "DIVERT MARKETING",
       description: "Designed and customized a Shopify store with custom sections, product pages, collections, and responsive UI for an enhanced customer experience.",
     image: project2,
     gradient: "linear-gradient(135deg, #3B82F6, #1E3A8A)",
