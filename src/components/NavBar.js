@@ -15,9 +15,9 @@ const NAV_LINKS = [
  
 // EDIT ME: replace with your own social links
 const SOCIALS = [
-  { icon: FaLinkedin, href: "https://www.linkedin.com/in/kashif-ali-26aba3205/", brand: "#0A66C2", label: "LinkedIn" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/in/kashifali7/", brand: "#0A66C2", label: "LinkedIn" },
   { icon: FaGithub, href: "https://github.com/kashifcod", brand: "#181717", label: "GitHub" },
-  { icon: FaWhatsapp, href: "https://wa.me/qr/EG3IQLDDGBFLL1", brand: "#25D366", label: "WhatsApp" },
+  { icon: FaWhatsapp, href: "https://wa.me/+923147179170", brand: "#25D366", label: "WhatsApp" },
 ];
  
 export const NavBar = () => {
