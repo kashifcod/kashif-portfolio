@@ -4,9 +4,9 @@ import { theme, eyebrowStyle, sectionHeadingStyle } from "../theme";
 
 // EDIT ME: update these numbers to reflect your real experience
 const STATS = [
-  { value: "1+", label: "Years Experience" },
+  { value: "2+", label: "Years Experience" },
   { value: "20+", label: "Projects Completed" },
-  { value: "15+", label: "Happy Clients" },
+  { value: "20+", label: "Happy Clients" },
 ];
 
 export const About = () => {
@@ -31,7 +31,7 @@ export const About = () => {
                   </h2>
                   <p style={{ fontFamily: theme.fonts.body, color: theme.colors.muted, fontSize: "1rem", lineHeight: 1.75 }}>
                     {/* EDIT ME: replace with your real bio */}
-                    Shopify & Frontend Developer with hands-on experience building responsive e-commerce websites using Shopify, React.js, JavaScript, Liquid, HTML, and CSS. Skilled in converting Figma designs into high-performance web applications, developing custom Shopify sections, integrating APIs, and optimizing user experience.
+                    Shopify & Frontend Developer with hands-on experience building responsive e-commerce websites using Shopify,  JavaScript, Liquid, HTML, and CSS, React.js. Skilled in converting Figma designs and assets into high-performance websites, e-commerce solutions, developing custom Shopify sections, integrating APPs, and optimizing user experience.
 
                   </p>
                   <p style={{ fontFamily: theme.fonts.body, color: theme.colors.muted, fontSize: "1rem", lineHeight: 1.75 }}>
