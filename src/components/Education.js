@@ -7,7 +7,7 @@ import graduationImg from "../asset/graduation pic.jpeg";
 
 const EDUCATION = [
   {
-    degree: "BS Computer Science / Information Technology",
+    degree: "BS Information Technology",
     place: "University of Sindh",
     period: "2020 — 2024",
     detail: "Web Development, Database Systems, Algorithms & Data Structures",
